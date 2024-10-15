@@ -1,0 +1,136 @@
+[drwxr-xr-x]  .
+├── [drwxr-xr-x]  forum_dapp
+│   ├── [-rw-r--r--]  foundry.toml
+│   ├── [drwxr-xr-x]  lib
+│   │   └── [drwxr-xr-x]  forge-std
+│   │       ├── [-rw-r--r--]  foundry.toml
+│   │       ├── [-rw-r--r--]  LICENSE-APACHE
+│   │       ├── [-rw-r--r--]  LICENSE-MIT
+│   │       ├── [-rw-r--r--]  package.json
+│   │       ├── [-rw-r--r--]  README.md
+│   │       ├── [drwxr-xr-x]  scripts
+│   │       │   └── [-rwxr-xr-x]  vm.py
+│   │       ├── [drwxr-xr-x]  src
+│   │       │   ├── [-rw-r--r--]  Base.sol
+│   │       │   ├── [-rw-r--r--]  console2.sol
+│   │       │   ├── [-rw-r--r--]  console.sol
+│   │       │   ├── [drwxr-xr-x]  interfaces
+│   │       │   │   ├── [-rw-r--r--]  IERC1155.sol
+│   │       │   │   ├── [-rw-r--r--]  IERC165.sol
+│   │       │   │   ├── [-rw-r--r--]  IERC20.sol
+│   │       │   │   ├── [-rw-r--r--]  IERC4626.sol
+│   │       │   │   ├── [-rw-r--r--]  IERC721.sol
+│   │       │   │   └── [-rw-r--r--]  IMulticall3.sol
+│   │       │   ├── [drwxr-xr-x]  mocks
+│   │       │   │   ├── [-rw-r--r--]  MockERC20.sol
+│   │       │   │   └── [-rw-r--r--]  MockERC721.sol
+│   │       │   ├── [-rw-r--r--]  safeconsole.sol
+│   │       │   ├── [-rw-r--r--]  Script.sol
+│   │       │   ├── [-rw-r--r--]  StdAssertions.sol
+│   │       │   ├── [-rw-r--r--]  StdChains.sol
+│   │       │   ├── [-rw-r--r--]  StdCheats.sol
+│   │       │   ├── [-rw-r--r--]  StdError.sol
+│   │       │   ├── [-rw-r--r--]  StdInvariant.sol
+│   │       │   ├── [-rw-r--r--]  StdJson.sol
+│   │       │   ├── [-rw-r--r--]  StdMath.sol
+│   │       │   ├── [-rw-r--r--]  StdStorage.sol
+│   │       │   ├── [-rw-r--r--]  StdStyle.sol
+│   │       │   ├── [-rw-r--r--]  StdToml.sol
+│   │       │   ├── [-rw-r--r--]  StdUtils.sol
+│   │       │   ├── [-rw-r--r--]  Test.sol
+│   │       │   └── [-rw-r--r--]  Vm.sol
+│   │       └── [drwxr-xr-x]  test
+│   │           ├── [drwxr-xr-x]  compilation
+│   │           │   ├── [-rw-r--r--]  CompilationScriptBase.sol
+│   │           │   ├── [-rw-r--r--]  CompilationScript.sol
+│   │           │   ├── [-rw-r--r--]  CompilationTestBase.sol
+│   │           │   └── [-rw-r--r--]  CompilationTest.sol
+│   │           ├── [drwxr-xr-x]  fixtures
+│   │           │   ├── [-rw-r--r--]  broadcast.log.json
+│   │           │   ├── [-rw-r--r--]  test.json
+│   │           │   └── [-rw-r--r--]  test.toml
+│   │           ├── [drwxr-xr-x]  mocks
+│   │           │   ├── [-rw-r--r--]  MockERC20.t.sol
+│   │           │   └── [-rw-r--r--]  MockERC721.t.sol
+│   │           ├── [-rw-r--r--]  StdAssertions.t.sol
+│   │           ├── [-rw-r--r--]  StdChains.t.sol
+│   │           ├── [-rw-r--r--]  StdCheats.t.sol
+│   │           ├── [-rw-r--r--]  StdError.t.sol
+│   │           ├── [-rw-r--r--]  StdJson.t.sol
+│   │           ├── [-rw-r--r--]  StdMath.t.sol
+│   │           ├── [-rw-r--r--]  StdStorage.t.sol
+│   │           ├── [-rw-r--r--]  StdStyle.t.sol
+│   │           ├── [-rw-r--r--]  StdToml.t.sol
+│   │           ├── [-rw-r--r--]  StdUtils.t.sol
+│   │           └── [-rw-r--r--]  Vm.t.sol
+│   ├── [-rw-r--r--]  README.md
+│   ├── [drwxr-xr-x]  script
+│   │   └── [-rw-r--r--]  Forum.s.sol
+│   ├── [drwxr-xr-x]  src
+│   │   └── [-rw-r--r--]  Forum.sol
+│   └── [drwxr-xr-x]  test
+│       └── [-rw-r--r--]  Forum.t.sol
+├── [drwxr-xr-x]  frontend
+│   ├── [-rw-r--r--]  biome.json
+│   ├── [-rw-r--r--]  next.config.js
+│   ├── [-rw-r--r--]  next-env.d.ts
+│   ├── [-rw-r--r--]  package.json
+│   ├── [-rw-r--r--]  README.md
+│   ├── [drwxr-xr-x]  src
+│   │   ├── [drwxr-xr-x]  components
+│   │   │   ├── [-rw-r--r--]  allPosts.tsx
+│   │   │   ├── [-rw-r--r--]  CommentForm.tsx
+│   │   │   ├── [-rw-r--r--]  Comments.tsx
+│   │   │   ├── [-rw-r--r--]  CommonVoteStubs.tsx
+│   │   │   ├── [-rw-r--r--]  Poll.tsx
+│   │   │   ├── [-rw-r--r--]  PostForm.tsx
+│   │   │   ├── [-rw-r--r--]  Posts.tsx
+│   │   │   ├── [-rw-r--r--]  ShareableCommentComponent.tsx
+│   │   │   └── [-rw-r--r--]  ShareablePostComponent.tsx
+│   │   ├── [drwxr-xr-x]  contracts
+│   │   │   ├── [-rw-r--r--]  deployed-contract.ts
+│   │   │   └── [-rw-r--r--]  generated.ts
+│   │   ├── [drwxr-xr-x]  fonts
+│   │   │   ├── [-rw-r--r--]  Gilroy-BlackItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Black.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-BoldItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Bold.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-ExtraBoldItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-ExtraBold.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-HeavyItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Heavy.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-LightItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Light.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-MediumItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Medium.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-RegularItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Regular.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-SemiBoldItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-SemiBold.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-ThinItalic.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-Thin.ttf
+│   │   │   ├── [-rw-r--r--]  Gilroy-UltraLightItalic.ttf
+│   │   │   └── [-rw-r--r--]  Gilroy-UltraLight.ttf
+│   │   ├── [drwxr-xr-x]  pages
+│   │   │   ├── [-rw-r--r--]  _app.tsx
+│   │   │   ├── [drwxr-xr-x]  comments
+│   │   │   │   └── [-rw-r--r--]  index.tsx
+│   │   │   ├── [drwxr-xr-x]  forum
+│   │   │   │   └── [-rw-r--r--]  index.tsx
+│   │   │   ├── [-rw-r--r--]  index.tsx
+│   │   │   └── [drwxr-xr-x]  posts
+│   │   │       └── [-rw-r--r--]  [id].tsx
+│   │   ├── [drwxr-xr-x]  styles
+│   │   │   ├── [-rw-r--r--]  Custom.module.css
+│   │   │   ├── [-rw-r--r--]  globals.css
+│   │   │   └── [-rw-r--r--]  Home.module.css
+│   │   ├── [drwxr-xr-x]  types
+│   │   │   └── [drwxr-xr-x]  posts
+│   │   │       └── [-rw-r--r--]  types.ts
+│   │   └── [-rw-r--r--]  wagmi.ts
+│   ├── [-rw-r--r--]  tsconfig.json
+│   ├── [-rw-r--r--]  wagmi.config.ts
+│   └── [-rw-r--r--]  yarn.lock
+└── [-rw-r--r--]  tree.txt
+
+27 directories, 107 files
